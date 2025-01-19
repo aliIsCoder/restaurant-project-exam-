@@ -1,0 +1,99 @@
+#menu {
+    width: 100vw;
+    height: 178vh;
+    background: url("../images/menu.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    padding: 10px;
+}
+
+
+.plates {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,2fr);
+    /* border: 5px solid blue; */
+    justify-content: start;
+    width: 80vw;
+    height: 105vh;
+    align-content: center;
+    padding-left: 10rem;
+    font-size: 20px;
+    margin-top: 29rem;
+    row-gap: 15px;
+    
+}
+.plates span {
+    margin-left: 0.8rem;
+    color: rgb(76, 61, 31);
+    font-weight: bold;
+    letter-spacing: 0.1cm;
+    text-align:center;
+}
+figcaption {
+    margin-top:1rem;
+    color: rgb(17, 160, 208);
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.plates img {
+    width: 190px;
+    float: left;
+    border-radius: 10%;
+}
+.price {
+    position:relative;
+    top: 2rem;
+
+}
+.menu-discover {
+    color:whitesmoke;
+    display: inline;
+    padding: 1.2rem;
+    border: 1px solid rgba(89, 84, 86, 0.117);
+    border: 0;
+    outline: none;
+}
+.burger-sand {
+    /* grid-auto-columns: 10%; */
+    grid-column: 2/3;
+    align-items: start;
+    justify-items: start;
+}
+.hotDog-sand, .fheladelphia-sand, .shawarma-sand {
+    grid-row: 3;
+    text-align: center;
+}
+.sand-price {
+    position: relative;
+    right: 7rem;
+    top: 2.4rem;
+}
+
+.plate-word {
+    position: relative;
+    bottom: 44rem;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(17, 160, 208);
+    font-style: italic;
+    display:inline;
+}
+
+.sandwich-word {
+    display: inline;
+    position: relative;
+    bottom: 27rem;
+    right: 10rem;
+    font-size: 2.8rem;
+    color:rgb(17, 160, 208);
+    font-style: italic;
+}
+
+
+
+
+

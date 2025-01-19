@@ -1,0 +1,53 @@
+
+/*Delivery Style sheet*/
+.plus-btn {
+    margin-left: 1rem;
+}
+.plus-btn button {
+    margin-right: .9rem;
+
+}
+.plus-btn button:hover {
+    font-size: 80%;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.order-btn {
+    margin-left: 80%;
+    padding: 1.6rem;
+    width: 100%;
+    border-radius: 26px;
+
+}
+body {
+    overflow-y: hidden;
+    padding: 10px;
+    margin: 10px;
+}
+.price {
+    margin-left: 0.5rem; 
+    color: rgb(0, 187, 255);
+    font-size:16px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+ol {
+    width: 69%;
+}
+.form-order {
+    margin-left: 4rem;
+}
+.form-order button[class] {
+    margin-top: 1.2rem; 
+}
+.form-order button[class]:hover {
+    font-size: 1rem;
+}
